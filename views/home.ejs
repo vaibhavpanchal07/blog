@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="bg-zinc-900 p-5">
+    <div class="flex items-center justify-between">
+        <h1 class="text-2xl">Hello, <%=user.fullname %></h1>
+        <a class="btn btn-danger" href="/logout">Logout</a>
+    </div>
+
+    <a class="btn inline-block mt-5" href="/post/create">+ Create Post</a>
+
+    <div class="posts mt-5">
+        <h1 class="text-2xl font-bold">All Posts</h1>
+        <div class="post mt-5">
+            <p class="text-blue-500 mb-2">@someone232</p>
+            <div class="content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus architecto inventore, accusamus doloremque cumque dolorum voluptates voluptas, nemo officia at vero totam error?
+            </div>
+        </div>
+        <!-- <p class="text-zinc-400">No Posts yet</p> -->
+    </div>
+</body>
+</html>

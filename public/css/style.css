@@ -1,0 +1,44 @@
+body{
+    color: #fff;
+}
+
+input {
+    background-color: #333;
+    padding: 10px 15px !important;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    margin: 5px !important;
+    &:focus{
+        outline: none;
+        border: 1px solid #444;
+    }
+}
+.msg{
+    color: red;
+    margin-bottom: 10px;
+}
+.btn {
+    background: rgb(59 130 246);
+    color: #fff !important;
+    padding: 7px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px 5px 0 0;
+    &:hover{
+        background: rgb(26, 114, 255);
+    }
+}
+.btn.btn-danger{
+    padding: 5px 10px;
+    background-color: rgb(180, 40, 40);
+}
+a{
+    color: rgb(59 130 246);
+}
+
+.post{
+    border: 1px solid #777;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+}

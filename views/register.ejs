@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="bg-zinc-900 p-5">
+    <h1 class="text-2xl mb-2 font-bold">Create Account</h1>
+    <p class="msg"><%= msg%></p>
+    <form action="/register" method="post">
+        <input type="text" name="fullname" placeholder="Full Name">
+        <input type="text" name="email" placeholder="Email ID">
+        <input type="text" name="mobile" placeholder="Mobile Number">
+        <input type="number" name="age" placeholder="Age">
+        <input type="password" name="password" placeholder="Password">
+        <input class="btn" type="submit" value="Register">
+    </form>
+    <span>Already have account?</span><a href="/login"> Login</a>
+</body>
+
+</html>
